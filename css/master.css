@@ -1,0 +1,168 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;}
+
+header{position: fixed; width: 100%; opacity: 100%;
+  background-color: #151515;height: 100px;
+  display: flex;justify-content: center;align-items: center;
+z-index: 500;}
+
+nav{width: 1000px; height: 100px; border : 0px solid : red;}
+
+nav > ul{display: grid; grid-template-columns: 0.5fr 0.6fr 0.4fr 0.6fr 0.4fr; height: 100px;}
+
+nav > ul > li{list-style: none; display: flex;justify-content: center;
+align-items: center;font-family: 'Noto Sans KR', sans-serif;
+font-weight: 400;
+letter-spacing: 0.8px;
+color: white;
+font-size: 1.2rem;border: 0px solid red;
+text-transform: uppercase;}
+
+nav > ul > li > a{color: #ffffff;}
+
+nav > ul > li > a:hover{color : #B9B9B9; transform: scale(1.1);transition: 0.2s;}
+
+nav > ul > li > img:hover{transform: scale(1.1);transition: 0.2s;}
+
+.bg{height: 1250px;background-size: cover;background-position: center;
+background-color: black;}
+
+.main_tit{ background-image: url('../img/main_bg.png');
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.tit{height: 800px; display: block;position: absolute; margin-top: 100px;}
+
+.index_bg1{width: 100%; height: 620px;display: flex;justify-content: center;
+margin-top: 100px;}
+
+.whoisheimg{display: fixed; justify-content: center;
+margin-left:100px;}
+.whoishe{ margin-top: 30px;font-size: 1rem; line-height: 1.4rem;
+  display: fixed;justify-content: center;font-family: 'Noto Sans KR',sans-serif;}
+  .whoishe > h3 {font-size: 1.2rem;}
+.whoishe > h6 {font-size: 1.2rem;font-weight: 400;letter-spacing: 0.8px;}
+.area1{width:50%; height: 620px;}
+
+
+.index_bg2{width: 100%; height: 720px;display: flex;justify-content: center;
+ background-color: black;}
+.ability{display: fixed; justify-content: center;
+margin-left:550px;margin-top: 150px;}
+.abilityimg{display: fixed; justify-content: center;
+margin-right:100px;margin-top: 100px;}
+.area2{width: 50%; height: 720px; }
+
+.index_bg3{width: 100%; height: 720px;display: flex;justify-content: center;
+}
+.careerimg{display: fixed; justify-content: center;
+margin-left:100px;margin-top: 100px;}
+.career{justify-content: center; align-items: center;font-size: 1.1rem;
+margin-top: 140px;}
+.career > h6 {font-size: 1.1rem;font-family: 'Noto Sans KR', sans-serif;
+font-weight: 400;
+letter-spacing: 0.8px;}
+
+.area3{width: 50%; height: 620px;}
+
+
+footer{height: 80px;width: 100%;background-color: #151515;display: flex;justify-content: center;align-items: center;}
+.footerwrap{width: 60%; height: 50px;display: flex;justify-content: space-between;align-items: center;}
+.footerleft{display: inline-block;}
+.footerright{display: inline-block;font-family: 'Noto Sans KR', sans-serif;font-weight: 200;letter-spacing: 1px;color: #E0E0E0;font-size: 10pt;}
+
+
+
+/*-----sub01반영 css-----*/
+
+.sub01bg{width: 100%;height:800px;background-size: cover;background-position: center;
+background-color: black;}
+
+.sub_tit{ background-image: url('../img/sub_bg.png');
+  position: relative; background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+
+  .psaarea{width: 100%; height: 2000px;display: flex;justify-content: center;
+    margin-top: 200px;}
+
+.psalogo{width: 30%;}
+.psalogo > img{ transform: translateX(110%) translatey(-30%);position: sticky;
+top:350px; margin-top: 200px;}
+
+.psacontents{width: 70%;}
+.psa1{ margin-top: 100px;margin-left: 250px;
+display: fixed;justify-content: center;}
+.psa2{ margin-top: 250px;margin-left: 250px;
+display: fixed;justify-content: center;}
+.psa3{ margin-top: 250px;margin-left: 250px;
+display: fixed;justify-content: center;}
+
+
+.caarea{width: 100%; height: auto;display: flex;justify-content: center;
+  margin-top: 200px;}
+
+.calogo{width: 30%;}
+.calogo > img{ transform: translateX(90%) translatey(-30%);position: sticky;
+top:350px; margin-top: 300px;padding-bottom: 100px;}
+
+.cacontents{width: 70%;}
+.ca1{  margin-top: 200px; margin-left: 250px;
+display: fixed;justify-content: center;}
+.ca2{  margin-top: 250px;margin-left: 250px;
+padding-bottom: 200px; display: fixed;justify-content: center;}
+
+
+/*-----sub01반영 css-----*/
+
+
+.sub02bg{width: 100%;height:800px;background-size: cover;background-position: center;
+background-color: black;}
+
+.sub_tit2{ background-image: url('../img/sub_bg.png');
+  position: relative; background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+
+  .pdp1area{width: 100%; height: 2000px;display: flex;justify-content: center;
+    margin-top: 200px;}
+
+.pdplogo1{width: 30%;}
+.pdplogo1 > img{ transform: translateX(70%) translatey(-30%);position: sticky;
+top:350px; margin-top: 200px;}
+
+.pdp1contents{width: 70%;}
+.pdp1_1{ margin-top: 100px;margin-left: 250px;
+display: fixed;justify-content: center;}
+.pdp1_2{ margin-top: 250px;margin-left: 250px;
+display: fixed;justify-content: center;}
+.pdp1_3{ margin-top: 250px;margin-left: 250px;
+display: fixed;justify-content: center;}
+
+
+.pdp2area{width: 100%; height: auto;display: flex;justify-content: center;
+  margin-top: 200px;}
+
+.pdplogo2{width: 30%;}
+.pdplogo2 > img{ transform: translateX(50%) translatey(-30%);position: sticky;
+top:350px; margin-top: 300px;padding-bottom: 100px;}
+
+.pdp2contents{width: 70%;}
+.pdp2_1{  margin-top: 200px; margin-left: 250px;
+display: fixed;justify-content: center;}
+.pdp2_2{  margin-top: 250px;margin-left: 250px;
+padding-bottom: 200px; display: fixed;justify-content: center;}
