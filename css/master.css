@@ -62,7 +62,7 @@ margin-right:100px;margin-top: 100px;}
 .careerimg{display: fixed; justify-content: center;
 margin-left:100px;margin-top: 100px;}
 .career{justify-content: center; align-items: center;font-size: 1.1rem;
-margin-top: 140px;}
+margin-top: 60px;}
 .career > h6 {font-size: 1.1rem;font-family: 'Noto Sans KR', sans-serif;
 font-weight: 400;
 letter-spacing: 0.8px;}
@@ -74,8 +74,8 @@ footer{height: 80px;width: 100%;background-color: #151515;display: flex;justify-
 .footerwrap{width: 60%; height: 50px;display: flex;justify-content: space-between;align-items: center;}
 .footerleft{display: inline-block;}
 .footerright{display: inline-block;font-family: 'Noto Sans KR', sans-serif;font-weight: 200;letter-spacing: 1px;color: #E0E0E0;font-size: 10pt;}
-
-
+.gototop{position: fixed; bottom:0px; right:100px; bottom: 20px; opacity: 0.5; transform: scale(0.8);}
+.gototop img {width:100px;}
 
 /*-----sub01반영 css-----*/
 
@@ -122,7 +122,7 @@ display: fixed;justify-content: center;}
 padding-bottom: 200px; display: fixed;justify-content: center;}
 
 
-/*-----sub01반영 css-----*/
+/*-----sub02반영 css-----*/
 
 
 .sub02bg{width: 100%;height:800px;background-size: cover;background-position: center;
@@ -138,31 +138,109 @@ background-color: black;}
   align-items: center;}
 
 
-  .pdp1area{width: 100%; height: 2000px;display: flex;justify-content: center;
-    margin-top: 200px;}
+  .pdp1area{width: 100%; height:2500px;display: flex;justify-content: center;
+    margin-top: 00px;margin-bottom: 100px;}
 
-.pdplogo1{width: 30%;}
-.pdplogo1 > img{ transform: translateX(70%) translatey(-30%);position: sticky;
-top:350px; margin-top: 200px;}
+.pdp1{width: 100%; height: 2500px;display: flex;justify-content: center;
+  padding-bottom: 100px; transform: scale(0.8); }
 
-.pdp1contents{width: 70%;}
-.pdp1_1{ margin-top: 100px;margin-left: 250px;
-display: fixed;justify-content: center;}
-.pdp1_2{ margin-top: 250px;margin-left: 250px;
-display: fixed;justify-content: center;}
-.pdp1_3{ margin-top: 250px;margin-left: 250px;
-display: fixed;justify-content: center;}
+    .pdp2area{width: 100%; height:3600px;display: flex;justify-content: center;}
+
+.pdp2{width: 100%; height: 3600px;display: flex;justify-content: center;
+  padding-bottom: 100px;transform: scale(0.8);}
 
 
-.pdp2area{width: 100%; height: auto;display: flex;justify-content: center;
+/*-----sub03반영 css-----*/
+
+.sub03bg{width: 100%;height:800px;background-size: cover;background-position: center;
+background-color: black;}
+
+.sub_tit3{ background-image: url('../img/sub_bg.png');
+  position: relative; background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+
+  .npdarea{width: 100%; height: 5000px;display: flex;justify-content: center;}
+
+.npdlogo{width: 30%;}
+.npdlogo > img{ transform: translateX(150%) translatey(-30%);position: sticky;
+top:350px; margin-top: 400px;}
+
+.npdcontents{width: 70%;}
+
+.npd1{margin-left: 50px;
+display: fixed;justify-content: center; transform:scale(0.6);}
+.npd2{margin-left: 50px;
+display: fixed;justify-content: center; transform:scale(0.6);}
+.npd3{margin-left: 50px;
+display: fixed;justify-content: center; transform:scale(0.6);}
+
+
+.bcdarea{width: 100%; height: 2000px;display: flex;justify-content: center;
+  margin-top: 300px;}
+
+.bcdlogo{width: 30%;}
+.bcdlogo > img{ transform: translateX(-30%) translatey(-30%);position: sticky;
+top:350px; margin-top: 300px;padding-bottom: 200px;}
+
+.bcdcontents{width: 70%;}
+
+.bcd1{  margin-top: 100px; margin-left: 250px;
+display: fixed;justify-content: center; repea}
+.bcd2{  margin-top: 300px;margin-left: 250px;
+padding-bottom: 100px; display: fixed;justify-content: center;}
+
+.ldarea{width: 100%; height: auto;display: flex;justify-content: center;
   margin-top: 200px;}
 
-.pdplogo2{width: 30%;}
-.pdplogo2 > img{ transform: translateX(50%) translatey(-30%);position: sticky;
+.ldlogo{width: 20%;}
+.ldlogo > img{ transform: translateX(70%) translatey(-30%);position: sticky;
 top:350px; margin-top: 300px;padding-bottom: 100px;}
 
-.pdp2contents{width: 70%;}
-.pdp2_1{  margin-top: 200px; margin-left: 250px;
-display: fixed;justify-content: center;}
-.pdp2_2{  margin-top: 250px;margin-left: 250px;
-padding-bottom: 200px; display: fixed;justify-content: center;}
+.ldcontents{width: 80%;}
+
+.ld1{  margin-top: 200px; margin-left:200px;
+display: fixed;justify-content: center;transform:scale(0.8);}
+.ld2{  margin-top: 250px; margin-left:200px;
+padding-bottom: 200px; display: fixed;justify-content: center;
+transform:scale(0.8);}
+.ld3{  margin-top: 250px; margin-left:200px;
+padding-bottom: 200px; display: fixed;justify-content: center;
+transform:scale(0.8);}
+
+
+/*-----sub04반영 css-----*/
+
+
+.sub04bg{width: 100%;height:800px;background-size: cover;background-position: center;
+background-color: black;}
+
+.sub_tit4{ background-image: url('../img/sub_bg.png');
+  position: relative; background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.smilecup{background-color: #61B9E9; width: 100%; height: 7135px; align-items: center;}
+  .scimg{width: 1263px; height: 892px;background-size: cover; 
+    background-position: center;display: block; margin-left: auto;  margin-right: auto;}
+  .p1{background-image: url('../img/sc1.png');}
+  .p2{background-image: url('../img/sc2.png');}
+  .p3{background-image: url('../img/sc3.png');}
+  .p4{background-image: url('../img/sc4.png');}
+  .p5{background-image: url('../img/sc5.png');}
+  .p6{background-image: url('../img/sc6.png');}
+  .p7{background-image: url('../img/sc7.png');}
+  .p8{background-image: url('../img/sc8.png');}
+
+
+
+..
