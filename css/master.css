@@ -229,17 +229,22 @@ background-color: black;}
   justify-content: center;
   align-items: center;}
 
-.smilecup{background-color: #61B9E9; width: 100%; height: 7135px; align-items: center;}
-  .scimg{width: 1263px; height: 892px;background-size: cover; 
+.smilecup{background-color: #61B9E9; width: 100%; height: 6230px; align-items: center;}
+  .scimg{width: 1263px; height: 892px;background-size: cover;
     background-position: center;display: block; margin-left: auto;  margin-right: auto;}
-  .p1{background-image: url('../img/sc1.png');}
+
+  .p1{width: 100%;height: 892px;display: flex;justify-content: center;}
+.splash{width: 50%; display: flex;justify-content: center;}
+.splash > img{ transform: translateX(100%) translatey(-30%);top:350px; margin-top: 400px;}
+.scbrand{width: 50%; display: flex;justify-content: center;
+transform: scale(0.4) translateX(-80%) translatey(20%);}
+
   .p2{background-image: url('../img/sc2.png');}
   .p3{background-image: url('../img/sc3.png');}
   .p4{background-image: url('../img/sc4.png');}
   .p5{background-image: url('../img/sc5.png');}
   .p6{background-image: url('../img/sc6.png');}
   .p7{background-image: url('../img/sc7.png');}
-  .p8{background-image: url('../img/sc8.png');}
 
 
 
